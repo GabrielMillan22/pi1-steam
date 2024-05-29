@@ -20,7 +20,7 @@ def read_root():
 
 
 #cargo el dataset limpio
-df = pd.read_json('datasets\datos.json')
+df = pd.read_json('datasets/datos.json')
 
 #transformo las columnas a srt para poder tabajarlas
 generos=df['genres'].astype(str)
